@@ -1,0 +1,15 @@
+.jumbotron{
+    padding: 2 rem 1 rem;
+    background-color: rgb(235, 252, 252);
+}
+/* In your-header.component.css */
+h1 {
+  font-size: 2em; /* Example size, adjust as needed */
+  font-weight: bold; /* Headings also have default font-weight */
+}
+
+h6 {
+  font-size: 1 em; /* Example size, adjust as needed (default browser size for h6) */
+  font-weight:normal;
+  text-align: left;
+}
