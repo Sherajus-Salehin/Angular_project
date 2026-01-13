@@ -1,0 +1,25 @@
+/* Make the row a flex container so columns sit side-by-side */
+.container {
+  display: block;
+}
+
+/* Layout for the row and columns */
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; /* allow wrapping on small screens */
+}
+
+.col-lg {
+  flex: 1 1 0;
+  min-width: 200px; /* optional: prevent columns from becoming too narrow */
+}
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  border-radius: 80%;
+}

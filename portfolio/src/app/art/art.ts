@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-art',
@@ -7,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './art.css',
 })
 export class Art {
-
+  constructor(private titleService: Title) {
+  this.titleService.setTitle("Art || Sherajus Salehin");
+}
 }
