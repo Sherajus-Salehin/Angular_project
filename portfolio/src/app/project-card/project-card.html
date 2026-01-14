@@ -1,0 +1,13 @@
+<div class="card shadow text-center " style="max-width: 300px; min-width: 300px;">
+    <h5 class="card-title">{{project.name}}</h5>
+    <p class="card-text">{{project.summary}}</p>
+    <button class="btn btn-primary">View more</button>
+</div>
+<div class="card-footer">
+    <div class="d-flex justify-content-center gap-2">
+        <!--div *ngFor="let tag of project.technologies"-->
+        @for(tag of project.technologies;track tag) {
+            <span class="tag me-2 mb-1" [style.background-color]='tag.color'>{{tag}}</span>
+        }
+    </div>
+</div>

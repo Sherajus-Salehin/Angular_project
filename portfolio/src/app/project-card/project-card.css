@@ -1,0 +1,53 @@
+/* Make the row a flex container so columns sit side-by-side */
+/* Primary button style */
+.btn {
+  /* Box model */
+  border: none; 
+  color: white; 
+  padding: 6px 18px; 
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block; 
+  font-size: 11px; 
+  margin: 3px 2px; 
+  cursor: pointer; 
+  border-radius: 15px;
+  transition-duration: 0.4s; 
+}
+
+.btn-primary {
+  background-color: #007bff; 
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+.btn-success {
+  background-color: #28a745; 
+}
+
+
+.btn-success:hover {
+  background-color: #1e7e34;
+}
+.tag{
+    padding: 0 20px;
+    height: 30px;
+    width: fit-content;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: #007bff;
+    color: white;
+}
+h5 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+p{
+    font-size: 12px;
+    line-height: 1.1;
+}
