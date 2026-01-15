@@ -11,6 +11,8 @@ export class Tag{
     static readonly SPRINGBOOT= new Tag('Spring Boot','#6DB33F');
     static readonly FLUTTER= new Tag('Flutter','#00599C');
     static readonly SQL= new Tag('SQL','#f29111');
+    static readonly PHP= new Tag('PHP','#777BB4');
+
     private constructor(private key:string, public readonly color:string){
 
     }
